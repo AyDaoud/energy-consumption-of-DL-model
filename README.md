@@ -26,7 +26,7 @@ Before you begin, make sure you have:
 - Basic familiarity with AWS EC2
 - SSH client installed on your local machine
 
-![AWS Console](https://path-to-your-image/aws-console.png)
+![AWS Console](https://miro.medium.com/v2/resize:fit:828/format:webp/1*zbD9-Xtv1K3J9-89oSnFzQ.png)
 
 ## Setting up an EC2 Instance
 
@@ -37,26 +37,28 @@ Before you begin, make sure you have:
 3. In the AWS Marketplace, search for "machine learning".
 4. Select the "AWS Deep Learning AMI (Ubuntu 18.04)" or a similar AMI that suits your needs.
 
-![Choosing AMI](https://path-to-your-image/choose-ami.png)
+![Choosing AMI](https://miro.medium.com/v2/resize:fit:828/format:webp/1*lWKkAZUz6TrVWXeI8o3yCw.png)
 
 ### 2. Choose an Instance Type
 
 1. Filter by GPU instances.
 2. Choose `g3s.xlarge` or a similar instance type based on your requirements and budget.
 
-![Choosing Instance Type](https://path-to-your-image/choose-instance.png)
+![Choosing Instance Type](https://miro.medium.com/v2/resize:fit:828/format:webp/1*qY73H_bRB6cUCIzgLuwnDw.png)
 
 ### 3. Configure the Instance
 
 You can use the default configuration for most settings.
 
-![Configure Instance](https://path-to-your-image/configure-instance.png)
+![Configure Instance](https://miro.medium.com/v2/resize:fit:828/format:webp/1*uyvMmQ8m0Ivw3FN5A7pVMw.png)
 
 ### 4. Add Storage
 
 Allocate storage as needed. 90GB is a good starting point.
 
-![Add Storage](https://path-to-your-image/add-storage.png)
+![Add Storage](https://miro.medium.com/v2/resize:fit:828/format:webp/1*hfWVfg3oPrC5Pu3uv3Qq5A.png)
+
+You can now click Next: Add Tags (no need to add any tags for now) and then Next: Configure Security Group.
 
 ### 5. Configure Security Group
 
@@ -64,14 +66,18 @@ Allocate storage as needed. 90GB is a good starting point.
 2. Add a rule to allow SSH access (port 22).
 3. Add a custom TCP rule for port 8888 (for Jupyter Notebook access).
 
-![Configure Security Group](https://path-to-your-image/security-group.png)
+![Configure Security Group](https://miro.medium.com/v2/resize:fit:828/format:webp/1*XkSaXrMd3MRopxnR4k9aKg.png) 
+### . Review
+
+Once you’re set, click on the Review and Launch button to review your instance’s details and then Launch your instance.
+
 
 ## Connecting to Your Instance
 
 1. From the EC2 Dashboard, select your instance and click "Connect".
 2. Follow the provided SSH instructions to connect to your instance.
 
-![Connect to Instance](https://path-to-your-image/connect-instance.png)
+![Connect to Instance](https://miro.medium.com/v2/resize:fit:828/format:webp/1*4Go9TqcuVeWRRzbw0GE-ZQ.png)
 
 ## Using Anaconda Environments and Jupyter Notebooks
 
