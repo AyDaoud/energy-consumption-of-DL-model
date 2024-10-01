@@ -2,7 +2,7 @@
 
 This guide will walk you through the process of setting up a GPU instance on Amazon Web Services (AWS) for machine learning tasks.
 
-![AWS GPU Instance Setup Overview](https://path-to-your-image/aws-gpu-overview.png)
+![AWS GPU Instance Setup Overview](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/EC2_GetStarted.html)
 
 ## Table of Contents
 1. [Introduction](#introduction)
